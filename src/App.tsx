@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="app">
       <div className="container">
-        <h1>React Calendar Component</h1>
+        <h1>React Calendar App</h1>
         <p className="subtitle">Technical Assessment</p>
         
         <div className="date-picker">

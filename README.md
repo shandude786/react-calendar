@@ -1,8 +1,28 @@
 # React Calendar Component
 
-> Technical Assessment  - Front End Engineer Position
+[![Deploy with Vercel](https://vercel.com/button)](https://react-calendar-two-taupe.vercel.app/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.2-blue)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-18.2-blue)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-5.0-646CFF)](https://vitejs.dev/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+> Technical Assessment - Front End Engineer Position
 
 A reusable React calendar component built with TypeScript, showcasing clean code architecture, comprehensive testing, and modern development practices.
+
+## 🚀 Live Demo
+
+**[View Live Demo →](https://react-calendar-two-taupe.vercel.app/)**
+
+Experience the calendar component in action with interactive date selection and real-time rendering.
+
+## 📸 Preview
+
+![Calendar Component Preview](./public/screenshot.png)
+
+*Interactive calendar component with date highlighting and responsive design*
+
+---
 
 ## 🎯 Features
 
@@ -18,21 +38,21 @@ A reusable React calendar component built with TypeScript, showcasing clean code
 
 ### Installation
 
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 ### Development
 
-\`\`\`bash
+```bash
 npm run dev
-\`\`\`
+```
 
 Visit: http://localhost:5173
 
 ### Testing
 
-\`\`\`bash
+```bash
 # Run tests
 npm test
 
@@ -41,13 +61,13 @@ npm run test:ui
 
 # Run tests with coverage
 npm run test:coverage
-\`\`\`
+```
 
 ### Build
 
-\`\`\`bash
+```bash
 npm run build
-\`\`\`
+```
 
 ## 📋 Requirements Checklist
 
@@ -66,14 +86,14 @@ npm run build
 
 ### Component Structure
 
-\`\`\`
+```
 Calendar/
 ├── Calendar.tsx           # Main component logic
 ├── Calendar.module.css    # Scoped styles
 ├── Calendar.test.tsx      # Comprehensive tests
 ├── Calendar.types.ts      # TypeScript interfaces
 └── index.ts              # Public exports
-\`\`\`
+```
 
 ### Key Design Decisions
 
@@ -100,13 +120,21 @@ The component includes 20+ test cases covering:
 
 ## 💻 Usage
 
-\`\`\`tsx
+```tsx
 import Calendar from './components/Calendar';
 
 function App() {
   return <Calendar date={new Date(2022, 9, 3)} />;
 }
-\`\`\`
+```
+
+## 🌐 Deployment
+
+This project is deployed on Vercel with continuous deployment enabled:
+
+- **Production URL**: [https://react-calendar-two-taupe.vercel.app/](https://react-calendar-two-taupe.vercel.app/)
+- **Auto-deploy**: Pushes to `main` branch trigger automatic deployments
+- **Preview URLs**: Pull requests get unique preview URLs
 
 ## 📦 Submission
 
@@ -117,6 +145,7 @@ This solution includes:
 - Type definitions
 - Documentation
 - Clean git history
+- Live deployment
 
 ## 🎨 Visual Design
 
@@ -135,6 +164,7 @@ The calendar features:
 - **Vite**: Fast build tool
 - **Vitest**: Modern testing framework
 - **CSS Modules**: Scoped styling
+- **Vercel**: Deployment and hosting
 
 ## 📝 Development Time
 
@@ -142,30 +172,36 @@ Completed in approximately 2 hours as per requirement.
 
 ## 👤 Author
 
-**Shanti**  
+**Shanti Lal**  
 Senior Software Engineer  
 Technical Assessment for IT Firm
 
 ---
 
 *Built with attention to detail, clean code principles, and modern React best practices.*
-\`\`\`
+
+## 🔗 Links
+
+- **Live Demo**: [https://react-calendar-two-taupe.vercel.app/](https://react-calendar-two-taupe.vercel.app/)
+- **GitHub Repository**: [Add your GitHub URL here]
 
 ## 🎯 Final Checklist
 
 Before submitting:
 
-- [ ] All tests passing
-- [ ] TypeScript compiles without errors
-- [ ] Code is well-documented
-- [ ] Follows functional programming principles
-- [ ] Good separation of concerns
-- [ ] README is complete
-- [ ] No console errors/warnings
+- [x] All tests passing
+- [x] TypeScript compiles without errors
+- [x] Code is well-documented
+- [x] Follows functional programming principles
+- [x] Good separation of concerns
+- [x] README is complete
+- [x] No console errors/warnings
+- [x] Deployed on Vercel
+- [x] Live demo accessible
 
 ## 🚀 Commands Reference
 
-\`\`\`bash
+```bash
 # Setup
 npm create vite@latest react-calendar -- --template react-ts
 cd react-calendar
@@ -181,21 +217,4 @@ npm run preview      # Preview production build
 npm test             # Run tests in watch mode
 npm run test:ui      # Run tests with UI
 npm run test:coverage # Run with coverage report
-\`\`\`
-
-## 📄 Submission Format
-
-**Option 1: GitHub**
-\`\`\`bash
-git init
-git add .
-git commit -m "feat: Complete Calendar component with tests"
-git remote add origin <your-repo-url>
-git push -u origin main
-\`\`\`
-
-**Option 2: Zip File**
-\`\`\`bash
-# Exclude node_modules and build files
-zip -r react-calendar.zip react-calendar/ -x "*/node_modules/*" "*/dist/*" "*/.git/*"
-\`\`\`
+```
